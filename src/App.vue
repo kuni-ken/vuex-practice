@@ -4,9 +4,11 @@
     <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
     <p>count: {{ count }}</p>
     <p>getCounterDaiText: {{ getCounterDaiText }}</p>
+
     <input v-model="suffix"/>
     <p>getCounterText: {{ getCounterText }}</p>
     <button @click="increment">Increment</button>
+    
     <p>date: {{ viewdate }}</p>
     <button @click="getCurrentDate">View Current Date</button>
   </div>
